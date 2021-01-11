@@ -25,10 +25,10 @@ describe("isArrayLengthOdd(numbers)", () => {
 });
 
 describe("isArrayLengthEven(numbers)", () => {
-  test("returns true if numbers has an odd number of elements", () => {
+  test("returns true if numbers has an even number of elements", () => {
     expect(isArrayLengthEven([1, 2, 3])).toEqual(false);
   });
-  test("returns true if numbers has an odd number of elements", () => {
+  test("returns true if numbers has an even number of elements", () => {
     expect(isArrayLengthEven([1, 2, 3, 4])).toEqual(true);
   });
 });
